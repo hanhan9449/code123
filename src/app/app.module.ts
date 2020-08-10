@@ -10,7 +10,7 @@ import { HomeComponent } from './components/home/home.component';
 import { RouterModule, Routes } from '@angular/router';
 import { LearningResourceComponent } from './components/learning-resource/learning-resource.component';
 import { AboutComponent } from './components/about/about.component';
-import { ResourceSetAreaComponent } from './components/learning-resource/resource-set-area/resource-set-area.component';
+import { ResourceSetAreaComponent } from './components/resource-set-area/resource-set-area.component';
 import { ResourceCardComponent } from './components/resource-card/resource-card.component';
 
 const appRoutes: Routes = [

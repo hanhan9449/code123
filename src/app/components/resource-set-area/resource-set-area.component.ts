@@ -1,5 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
-import { ResourceSet } from '../../../interfaces/resource-set.interface';
+import { ResourceSet } from '../../interfaces/resource-set.interface';
 
 @Component({
   selector: 'app-resource-set-area',
