@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
+import { Resource } from 'src/app/interfaces/resource.interface';
 
 @Component({
   selector: 'app-resource-card',
@@ -6,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./resource-card.component.less'],
 })
 export class ResourceCardComponent implements OnInit {
+  @Input() resource: Resource;
   constructor() {}
 
   ngOnInit(): void {}

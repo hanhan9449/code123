@@ -7,7 +7,7 @@ import { ResourceSet } from '../../interfaces/resource-set.interface';
   styleUrls: ['./resource-set-area.component.less'],
 })
 export class ResourceSetAreaComponent implements OnInit {
-  @Input() resourceSet: ResourceSet[];
+  @Input() resourceSet: ResourceSet;
 
   constructor() {}
 

@@ -1,3 +1,6 @@
-<p>resource-set-area works!</p>
-
-<p>{{ resourceSet | json }}</p>
+<!-- <p>{{ resourceSet | json }}</p> -->
+<div class="container">
+  <div *ngFor="let resource of resourceSet.resources" class="set">
+    <app-resource-card [resource]="resource"></app-resource-card>
+  </div>
+</div>
