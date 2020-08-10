@@ -121,8 +121,16 @@
               "devServerTarget": "code123:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {}
         }
       }
-    }},
-  "defaultProject": "code123"
+    }
+  },
+  "defaultProject": "code123",
+  "cli": {
+    "analytics": "8bf97a41-736d-4423-a2c1-331b3f28269e"
+  }
 }
