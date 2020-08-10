@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { LearningResourceService } from './learning-resource.service';
 import { Observable } from 'rxjs';
-import { ResourceSet } from './resource-set.interface';
+import { ResourceSet } from '../../interfaces/resource-set.interface';
 
 @Component({
   selector: 'app-learning-resource',
