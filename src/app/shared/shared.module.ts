@@ -4,10 +4,17 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatIconModule } from '@angular/material/icon';
 import { MatMenuModule } from '@angular/material/menu';
 import { MatButtonModule } from '@angular/material/button';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [],
   imports: [CommonModule],
-  exports: [MatToolbarModule, MatIconModule, MatMenuModule, MatButtonModule],
+  exports: [
+    MatToolbarModule,
+    MatIconModule,
+    MatMenuModule,
+    MatButtonModule,
+    HttpClientModule,
+  ],
 })
 export class SharedModule {}

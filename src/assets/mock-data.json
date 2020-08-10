@@ -2,7 +2,7 @@
   {
     "id": "front-end",
     "name": "前端",
-    "links": [
+    "resources": [
       {
         "name": "html",
         "bref": "一种用于创建网页的标准标记语言",
@@ -38,7 +38,7 @@
   {
     "id": "back-end",
     "name": "后端",
-    "links": [
+    "resources": [
       {
         "name": "java",
         "bref": "一门面向对象编程语言,以编写桌面应用程序、Web应用程序、分布式系统和嵌入式系统应用程序等",
@@ -64,7 +64,7 @@
   {
     "id": "C",
     "name": "C/C++/C#",
-    "links": [
+    "resources": [
       {
         "name": "C",
         "bref": "一种通用的、面向过程式的计算机程序设计语言",
@@ -86,7 +86,7 @@
   {
     "id": "ui",
     "name": "设计相关",
-    "links": [
+    "resources": [
       {
         "name": "iconfont",
         "bref": "国内功能很强大且图标内容很丰富的矢量图标库,提供矢量图标下载、在线存储、格式转换等功能",
@@ -122,7 +122,7 @@
   {
     "id": "community",
     "name": "论坛社区",
-    "links": [
+    "resources": [
       {
         "name": "掘金",
         "bref": "一个帮助开发者成长的社区,是给开发者用的 Hacker News,给设计师用的 Designer News,和给产品经理用的 Medium",

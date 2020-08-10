@@ -1,0 +1,5 @@
+<p>{{ resourceSets$ | async | json }}</p>
+
+<div *ngFor="let resourceSet of resourceSets$ | async">
+  <app-resource-set-area [resourceSet]="resourceSet"></app-resource-set-area>
+</div>
