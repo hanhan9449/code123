@@ -1,53 +1,141 @@
 [
   {
     "id": "front-end",
-    "name": "前端",
+    "name": "前端学习",
     "resources": [
       {
         "name": "html",
-        "bref": "一种用于创建网页的标准标记语言",
-        "link": "https://www.runoob.com/html/html-tutorial.html"
+        "bref": "(基础)超文本标记语言",
+        "link": "https://developer.mozilla.org/zh-CN/docs/Web/HTML"
       },
       {
         "name": "css",
-        "bref": "层叠样式表 (Cascading Style Sheets)",
-        "link": "https://www.runoob.com/css/css-intro.html"
+        "bref": "(基础)层叠样式表",
+        "link": "https://developer.mozilla.org/zh-CN/docs/Web/CSS"
       },
       {
-        "name": "Bootstrap",
-        "bref": "一个用于快速开发 Web 应用程序和网站的前端框架",
-        "link": "https://www.runoob.com/bootstrap/bootstrap-intro.html"
-      },
-      {
-        "name": "jQuery",
-        "bref": " JavaScript 库",
-        "link": "https://www.runoob.com/jquery/jquery-tutorial.html"
+        "name": "Angular",
+        "bref": "(开发框架)一套框架，多种平台，移动端 & 桌面端",
+        "link": "https://angular.cn/"
       },
       {
         "name": "react",
-        "bref": "前端主流框架之一,用于构建用户界面的 JavaScript 库",
+        "bref": "(开发框架)前端主流框架之一,用于构建用户界面的 JavaScript 库",
         "link": "https://zh-hans.reactjs.org/"
       },
       {
         "name": "vue",
-        "bref": "一套用于构建用户界面的渐进式框架",
+        "bref": "(开发框架)一套用于构建用户界面的渐进式框架",
         "link": "https://cn.vuejs.org/"
+      },
+      {
+        "name": "Bootstrap",
+        "bref": "Build fast, responsive sites with Bootstrap",
+        "link": "https://getbootstrap.com/"
+      },
+      {
+        "name": "jQuery",
+        "bref": "小巧精干的网页库",
+        "link": "https://jquery.com/"
+      }
+    ]
+  },
+  {
+    "id": "lang",
+    "name": "计算机编程语言",
+    "resources": [
+      {
+        "name": "Javascript",
+        "bref": "JavaScript ( JS ) 是一种具有函数优先的轻量级，解释型或即时编译型的编程语言。",
+        "link": "https://developer.mozilla.org/zh-CN/docs/Web/JavaScript"
+      },
+      {
+        "name": "Typescript",
+        "bref": "Javascript 超集",
+        "link": "https://www.typescriptlang.org/"
+      },
+      {
+        "name": "rust",
+        "bref": "A language empowering everyone to build reliable and efficient software.",
+        "link": "https://www.rust-lang.org/"
+      },
+      {
+        "name": "python",
+        "bref": "功能强大的脚本语言，用于运维以及数据科学",
+        "link": "https://www.python.org/"
+      },
+      {
+        "name": "C",
+        "bref": "C是一种通用的程式語言，广泛用于系统软件与应用软件的开发。",
+        "link": "https://www.runoob.com/cprogramming/c-tutorial.html"
+      },
+      {
+        "name": "C++",
+        "bref": "C++是一种被广泛使用的计算机程序设计语言。它是一种通用程序設計語言，支援多重编程模式",
+        "link": "https://www.runoob.com/cplusplus/cpp-tutorial.html"
+      },
+      {
+        "name": "Java",
+        "bref": "Java是一種廣泛使用的電腦程式設計語言，擁有跨平台、物件導向、泛型程式設計的特性，广泛应用于企业级Web应用开发和移动应用开发。 ",
+        "link": "https://www.runoob.com/java/java-tutorial.html"
+      },
+      {
+        "name": "Lisp",
+        "bref": "待添加"
+      },
+      {
+        "name": "Objective-C",
+        "bref": "苹果用于开发的语言"
+      },
+      {
+        "name": "Swift",
+        "bref": "苹果用于开发的语言"
+      },
+      {
+        "name": "Assembly",
+        "bref": "汇编语言"
+      }
+    ]
+  },
+  {
+    "id": "web-server",
+    "name": "web服务器开发",
+    "resources": [
+      {
+        "name": "(python)django",
+        "bref": "Django makes it easier to build better Web apps more quickly and with less code.",
+        "link": "https://www.djangoproject.com/"
+      },
+      {
+        "name": "(ruby)ruby on rails",
+        "bref": "Imagine what you could build if you learned Ruby on Rails…",
+        "link": "https://rubyonrails.org/"
+      },
+      {
+        "name": "(Java)Spring",
+        "bref": "Spring makes Java simple.modern.productive.reactive.cloud-ready",
+        "link": "https://spring.io/"
+      },
+      {
+        "name": "(Node.js)express.js",
+        "bref": "Fast, unopinionated, minimalist web framework for Node.js",
+        "link": "https://expressjs.com/"
       }
     ]
   },
   {
     "id": "back-end",
-    "name": "后端",
+    "name": "后端语言",
     "resources": [
-      {
-        "name": "java",
-        "bref": "一门面向对象编程语言,以编写桌面应用程序、Web应用程序、分布式系统和嵌入式系统应用程序等",
-        "link": "https://www.runoob.com/java/java-intro.html"
-      },
       {
         "name": "node.js",
         "bref": "一个事件驱动I/O服务端JavaScript环境，基于Google的V8引擎，V8引擎执行Javascript的速度非常快，性能非常好",
         "link": "https://www.runoob.com/nodejs/nodejs-tutorial.html"
+      },
+      {
+        "name": "java",
+        "bref": "一门面向对象编程语言,以编写桌面应用程序、Web应用程序、分布式系统和嵌入式系统应用程序等",
+        "link": "https://www.runoob.com/java/java-intro.html"
       },
       {
         "name": "Python",
