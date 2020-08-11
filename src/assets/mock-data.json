@@ -82,7 +82,6 @@
       }
     ]
   },
-  { "id": "security", "name": "网络安全" },
   {
     "id": "ui",
     "name": "设计相关",
@@ -139,6 +138,5 @@
         "link": "https://www.csdn.net/"
       }
     ]
-  },
-  { "id": "update", "name": "上报新网址" }
+  }
 ]

@@ -1,6 +1,10 @@
-<!-- <p>{{ resourceSet | json }}</p> -->
-<div class="container">
-  <div *ngFor="let resource of resourceSet.resources" class="set">
-    <app-resource-card [resource]="resource"></app-resource-card>
+<div class="set">
+  <h1 class="title">
+    {{ resourceSet.name }}
+  </h1>
+  <div class="wrap">
+    <div *ngFor="let resource of resourceSet.resources" class="set">
+      <app-resource-card [resource]="resource"></app-resource-card>
+    </div>
   </div>
 </div>
