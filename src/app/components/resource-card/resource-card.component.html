@@ -1,19 +1,11 @@
-<!-- <a [href]="resource.link"> -->
-<mat-card class="resource-card">
-  <mat-card-header>
-    <mat-card-title>
-      {{ resource.name }}
-    </mat-card-title>
-  </mat-card-header>
-  <img mat-card-image src="https://picsum.photos/200/140" alt="" />
-  <mat-card-content>
-    <p class="bref">
-      {{ resource.bref }}
-    </p>
-  </mat-card-content>
-  <mat-card-actions>
-    <!-- <a mat-button [href]="resource.link" class="button">转到</a> -->
-    <button mat-button>转到</button>
-  </mat-card-actions>
-</mat-card>
-<!-- </a> -->
+<div class="card">
+  <!-- <img [src]="'https://picsum.photos/200/140'" alt="" class="logo" /> -->
+  <img [src]="randomPic()" alt="" class="logo" />
+  <h2 class="name">
+    {{ resource.name }}
+  </h2>
+
+  <p class="bref">
+    {{ resource.bref }}
+  </p>
+</div>

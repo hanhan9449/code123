@@ -11,4 +11,8 @@ export class ResourceCardComponent implements OnInit {
   constructor() {}
 
   ngOnInit(): void {}
+  randomPic(): string {
+    let num = ~~(Math.random() * 100);
+    return `https://picsum.photos/200/140?random=${num}`;
+  }
 }
