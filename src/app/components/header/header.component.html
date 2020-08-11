@@ -1,11 +1,31 @@
 <!-- <div class="header"></div> -->
 
 <mat-toolbar color="primary">
-  <mat-icon aria-hidden="false" aria-label="logo" id="logo">code</mat-icon>
-  <a mat-button routerLink="/">博文</a>
-  <a mat-button routerLink="/learning-resource">学习资源</a>
-  <a mat-button routerLink="/about">关于我们</a>
-  <a mat-button href="http://github.com" id="github" target="_blank"
-    >open in github</a
-  >
+  <nav class="wrap">
+    <a
+      mat-button
+      aria-hidden="false"
+      aria-label="logo"
+      id="logo"
+      routerLink="/"
+    >
+      <mat-icon>
+        code
+      </mat-icon>
+      <span>
+        code123
+      </span>
+    </a>
+    <a mat-button routerLink="/">博文</a>
+    <a mat-button routerLink="/learning-resource">学习资源</a>
+    <a mat-button routerLink="/about">关于我们</a>
+    <div class="flex-spacer"></div>
+    <a
+      mat-button
+      href="https://github.com/hanhan9449/code123"
+      id="github"
+      target="_blank"
+      >open in github</a
+    >
+  </nav>
 </mat-toolbar>
